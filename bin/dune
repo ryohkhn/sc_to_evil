@@ -1,0 +1,9 @@
+(executable
+ (public_name sc_to_evil)
+ (name main)
+ (libraries sc_to_evil cohttp-lwt-unix cohttp yojson str)
+)
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
